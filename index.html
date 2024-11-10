@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+<body>
+    <!-- navbar -->
+    <div class="container-fluid fixed-bottom">
+        <div class="row bg-black">
+            <div class="col-10 mx-auto">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <strong class="ubuntu">
+                    Jagadw's Portfolio
+                    </strong>
+                    <button class="navbar-toggler ubuntu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto">
+                        <a class="nav-item nav-link active" href="#about">About</a>
+                        <a class="nav-item nav-link" href="#project">Projects</a>
+                        <a class="nav-item nav-link" href="#contact">Message</a>
+                        <!-- <a class="nav-item nav-link disabled" href="#">More</a> -->
+                        </div>
+                    </div>
+                    </nav>                
+            </div>
+        </div>
+    </div>
+    <!-- hero -->
+    <section id="home">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6">
+                    <div class="hero text-center mt-3">
+                        <img class="rounded-circle img-fluid mt-5" src="assets/photo.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-first">
+                    <div class="hero-text text-light animated-text">
+                        <h1 class="ubuntu">WEB DEVELOPER</h1>
+                        <h3>I Putu Gede Jagadhita Wicaksana</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about -->
+    <section class="about py-5 text-light" id="about">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="text-light">About Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 animated-text">
+                    <div class="about-text">
+                        <h3 class="ubuntu justify-content-center">Profile</h3>
+                        <p class="text-justify">I am Balinese, living in Denpasar City. I guess my passion is programming and learning about technological advances. As a junior web developer I am able to develop websites in frontend and backend. I am a cooperative person, a good listener and have a great curiosity to try new things.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a href="#" class="btn ubuntu">>> Download my CV</a>
+                            <div class="social-links">
+                                <a href="https://" class="text-light me-2"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/jagadw" class="text-light me-2"><i class="fab fa-github"></i></a>
+                                <a href="https://instagram.com/jagadwcksn" class="text-light me-2"><i class="fab fa-instagram"></i></a>
+                                <a href="https://" class="text-light me-2"><i class="fab fa-discord"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 animated-text">
+                    <h3 class="ubuntu text-center">My Capabilities</h3>
+                    <div class="skill-item mt-1 text-center">
+                        <img src="assets/html.png" alt="html">
+                        <img src="assets/css.png" alt="css">
+                        <img src="assets/js.png" alt="js">
+                        <img src="assets/php.png" alt="php">
+                        <img src="assets/mysql.png" alt="mysql">
+                    </div>
+                    <!-- <h3 class="ubuntu text-center mt-3">Most Used Framework</h3> -->
+                    <div class="skill-item mt-1 text-center">
+                        <img src="assets/bootstrap.png" height="50px" width="55px" alt="bootstrap">
+                        <img src="assets/laravel.png" height="45px" width="45px" alt="laravel">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><br>
+    <!-- project -->
+    <section class="project my-5" id="project">
+        <div class="container-lg my-4">
+            <div class="row text-center">
+                <div class="col">
+                    <h2 class="text-light">Featured Projects</h2>
+                </div>
+            </div>
+            <div class="row animated-text">
+                <div class="col-md-4">
+                    <div class="card mt-3 bg-black text-light">
+                    <img class="card-img-top" src="assets/laundry.png" alt="laundry">
+                    <div class="card-body">
+                        <p class="card-text">Laundry Management System.<br><br>
+                        <a class="btn ubuntu" href="https://github.com/jagadw/Laundry_Management_System">>> More</a>
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mt-3 bg-black text-light">
+                    <img class="card-img-top" src="assets/apotek.png" alt="apotek">
+                    <div class="card-body">
+                        <p class="card-text">Pharmacy Management System.<br><br>
+                        <a class="btn ubuntu" href="https://github.com/jagadw/apotek_sehat">>> More</a>
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mt-3 bg-black text-light">
+                    <img class="card-img-top" src="assets/todolist.png" alt="todolist">
+                    <div class="card-body">
+                        <p class="card-text">Simple Todolist. <br><br>
+                        <a class="btn ubuntu" href="https://github.com/jagadw/javascript_todolist">>> More</a>
+                        </p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- message -->
+    <section class="contact mt-5 py-5" id="contact">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center text-light">
+                        <h2 class="mb-5">Text Me</h2>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-12 animated-text">
+                    <div class="contact-form">
+                        <form onsubmit="sendEmail(event)">
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" id="name" placeholder="your name" class="form-control form-control-lg fs-6 border-0">
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <input type="email" id="email" placeholder="your email" class="form-control form-control-lg fs-6 border-0">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <input type="text" id="subject" placeholder="subject" class="form-control form-control-lg fs-6 border-0">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <textarea id="message" rows="5" placeholder="your message" class="form-control form-control-lg fs-6 border-0"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button type="submit" class="btn ubuntu px-3">>> Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- wm -->
+    <!-- <footer class="text-center text-light bg-black">Made with <i class="fab fa-ubuntu ubuntu"></i> by Jagad</footer> -->
+    <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script>
+        const animatedTexts = document.querySelectorAll('.animated-text');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                } else {
+                    entry.target.classList.remove('visible');
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+        animatedTexts.forEach(text => {
+            observer.observe(text);
+        });
+
+        function sendEmail(event) {
+
+        event.preventDefault(); // Mencegah form dari pengiriman default
+
+
+        // Mengambil nilai dari input
+
+        var name = document.getElementById("name").value;
+
+        var email = document.getElementById("email").value;
+
+        var subject = document.getElementById("subject").value;
+
+        var message = document.getElementById("message").value;
+
+
+        // Membuat link mailto
+
+        var mailtoLink = "mailto:simpenakungame.demjy@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent("Email: " + email + "\nMessage: " + message);
+
+
+        // Membuka aplikasi email
+
+        window.location.href = mailtoLink;
+
+        }
+    </script>
+</body>
+</html>
